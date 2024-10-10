@@ -1,0 +1,11 @@
+﻿@page "/home"
+
+<h1> Hello @GetUsername()!</h1>
+
+@code{
+    private string username = "";
+    private string GetUsername()
+    {
+        return "Suman";
+    }
+}
